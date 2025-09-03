@@ -75,7 +75,6 @@ def _split_escaped(s, sep):
     return parts
 
 
-# Fix invalid type hint
 def _parse_variant_args_to_lists(variant_args: Optional[List[str]]) -> List[List[str]]:
     """
     Convert variant argument strings into structured attribute lists.
